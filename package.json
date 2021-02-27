@@ -3,15 +3,19 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android --variant=debug",
+    "android": "react-native run-android --variant debug",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.14.1",
+    "@react-navigation/native": "^5.9.3",
     "react": "16.13.1",
-    "react-native": "0.63.4"
+    "react-native": "0.63.4",
+    "react_native_mqtt": "^1.3.1",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
